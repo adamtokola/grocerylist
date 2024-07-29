@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    width: auto;
+    text-align: center;
+  }
+  
+  header, section {
+    margin: 20px;
+    padding: 10px;
+    width: fit-content;
+  }
+  
+  section h2 {
+    background-color: #d0d0d0;
+    padding: 5px;
+  }
+  
+  section h3 {
+    margin: auto;
+    height: 40px;
+    width: 175px;
+  }
+  
+  .pantry, .freezer {
+    background-color: #cdccce;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .canned, .dry-goods, .veggies, .snacks {
+    margin: 15px;
+    border: 1px solid #ccc;
+    background-color: #dbb6b6;
+    width: 275px;
+    height: 200px;
+  }
+  
+  .photo {
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+  }
+  
+  .pantry .photo-container, .freezer .photo-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .pantry .photo, .freezer .photo {
+    max-width: 100%;
+    height: auto;
+  }
+  
